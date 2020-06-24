@@ -1,0 +1,120 @@
+.home {
+    margin-top: 10rem;
+    width: 95%;
+}
+.banner-image {
+    text-align: right;
+    img {
+        width: 80%;
+    }
+}
+.welcome-box {
+    padding-left: 60px;
+    margin-top: -10%;
+    .welcome-header {
+        font-weight: 100;
+        font-size: 3.5rem;
+    }
+    .welcome-message {
+        margin-top: 50px;
+        border-top: 1px solid black;
+        padding-top: 10px;
+        letter-spacing: 1.2px;
+        font-size: 12px;
+        margin-bottom: 3rem;
+    }
+    .btn {
+        background: #cc8b4f;
+        color: white;
+        border-radius: 40px;
+        width: 150px;
+    }
+}
+.about {
+    margin-top: 15rem;
+    .welcome-box {
+        .welcome-message {
+            b {
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .btn {
+        margin-top: 5rem;
+        background: transparent;
+        color: black;
+    }
+    .side-image {
+        padding-left: 20%;
+        img {
+            width: 80%;
+        }
+    }
+}
+.about-value {
+    padding: 15px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.service {
+    margin-top: 10rem;
+    .welcome-box {
+        .welcome-message {
+            b {
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .btn {
+        margin-top: 5rem;
+        background: transparent;
+        color: black;
+    }
+    .side-image {
+        padding-left: 20%;
+        img {
+            width: 80%;
+        }
+    }
+
+}
+.street-no {
+    position: absolute;
+    left: 3%;
+    top: 15%;
+    z-index: 1;
+    h1{
+        font-size: 12rem;
+        font-weight: 400;
+        color: #382f1b;
+    }
+}
+.street-name {
+    position: absolute;
+    right: 5.2%;
+    bottom: 15%;
+    z-index: 1;
+    h1{
+        font-size: 12rem;
+        font-weight: 400;
+        color: #382f1b;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .street-no {
+        display: none;
+    }
+    .street-name {
+        display: none;
+    }
+}
+.welcome-box .welcome-message {
+    margin-top: 50px;
+    border-top: 1px solid #000;
+    padding-top: 10px;
+    letter-spacing: 1.2px;
+    font-size: 14px;
+    margin-bottom: 2rem;
+}

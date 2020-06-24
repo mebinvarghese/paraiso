@@ -1,0 +1,331 @@
+.home {
+    margin-top: 2rem;
+    .banner-image {
+        width: 100%;
+        img {   
+            width: inherit;
+            object-fit: contain;
+        }
+    }
+    .welcome {
+        .col-md-6 {
+            width: 50%;
+        }
+        .welcome-header {
+            font-weight: 100;
+            margin-bottom: 2rem;
+        }
+    
+        .welcome-header::after {
+            content: " ";
+            display: block;
+            position: absolute;
+            height: 1px;
+            background: black;
+            width: 80%;
+            left: 110%;
+            top: calc(50% - 12px);
+        }
+    }
+    .welcome-box {
+        .welcome-message {
+            margin-top: 50px;
+            border-top: 1px solid black;
+            padding-top: 10px;
+            letter-spacing: 1.2px;
+            font-size: 12px;
+        }
+    }
+    .welcome-btn {
+        text-align: center;
+        display: block;
+        margin-top: 2rem;
+        .btn {    
+            padding: 5px;
+            font-size: 10px;
+            width: 40%;
+            border-radius: 8px;
+        
+        }
+    }
+}
+.about {
+    margin-top: 5rem;
+    .banner-image {
+        width: 100%;
+        img {   
+            width: inherit;
+            object-fit: contain;
+        }
+    }
+    .welcome {
+        .col-md-6 {
+            width: 50%;
+        }
+        .welcome-header {
+            font-weight: 100;
+            margin-bottom: 2rem;
+        }
+    
+        .welcome-header::after {
+            content: " ";
+            display: block;
+            position: absolute;
+            height: 1px;
+            background: black;
+            width: 80%;
+            left: 50%;
+            top: calc(50% - 12px);
+        }
+    }
+    .t-word {
+        margin-bottom: 2rem;
+        .col-md-12 {    
+            border-bottom: 1px solid black;
+            margin: 0px 15px 0 20px;
+            padding: 0;
+            padding-bottom: 10px;
+            span {
+                font-size: 1.6rem;
+            }
+        }
+    }
+    .welcome-box {
+        .welcome-message {
+            margin-top: 50px;
+            border-top: 1px solid black;
+            padding-top: 10px;
+            letter-spacing: 1.2px;
+            font-size: 12px;
+        }
+    }
+    .welcome-btn {
+        text-align: center;
+        display: block;
+        margin-top: 2rem;
+        .btn {    
+            padding: 5px;
+            font-size: 10px;
+            width: 40%;
+            border-radius: 8px;
+        
+        }
+    }
+    .about-value {
+        padding: 15px 0 15px 0;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+}
+.service {
+    margin-top: 5rem;
+    .banner-image {
+        width: 100%;
+        img {   
+            width: inherit;
+            object-fit: contain;
+        }
+    }
+    .welcome {
+        .col-md-6 {
+            width: 50%;
+        }
+        .welcome-header {
+            font-weight: 100;
+            margin-bottom: 2rem;
+        }
+    
+        .welcome-header::after {
+            content: " ";
+            display: block;
+            position: absolute;
+            height: 1px;
+            background: black;
+            width: 80%;
+            left: 50%;
+            top: calc(50% - 12px);
+        }
+    }
+    .t-word {
+        margin-bottom: 2rem;
+        .col-md-12 {    
+            border-bottom: 1px solid black;
+            margin: 0px 15px 0 20px;
+            padding: 0;
+            padding-bottom: 10px;
+            span {
+                font-size: 1.6rem;
+            }
+        }
+    }
+    .welcome-box {
+        .welcome-message {
+            margin-top: 50px;
+            border-top: 1px solid black;
+            padding-top: 10px;
+            letter-spacing: 1.2px;
+            font-size: 12px;
+        }
+    }
+    .welcome-btn {
+        text-align: center;
+        display: block;
+        margin-top: 2rem;
+        .btn {    
+            padding: 5px;
+            font-size: 10px;
+            width: 40%;
+            border-radius: 8px;
+        
+        }
+    }
+    .about-value {
+        padding: 15px 0 15px 0;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+}
+
+.contact {
+    margin-top: 5rem;
+    .banner-image {
+        width: 100%;
+        img {   
+            width: inherit;
+            object-fit: contain;
+        }
+    }
+    .welcome {
+        .col-md-6 {
+            width: 50%;
+        }
+        .welcome-header {
+            font-weight: 100;
+            margin-bottom: 2rem;
+        }
+    
+        .welcome-header::after {
+            content: " ";
+            display: block;
+            position: absolute;
+            height: 1px;
+            background: black;
+            width: 80%;
+            left: 50%;
+            top: calc(50% - 12px);
+        }
+    }
+    .t-word {
+        margin-bottom: 2rem;
+        .col-md-12 {    
+            border-bottom: 1px solid black;
+            margin: 0px 15px 0 20px;
+            padding: 0;
+            padding-bottom: 10px;
+            span {
+                font-size: 1.6rem;
+            }
+        }
+    }
+    .welcome-box {
+        .welcome-message {
+            margin-top: 50px;
+            border-top: 1px solid black;
+            padding-top: 10px;
+            letter-spacing: 1.2px;
+            font-size: 12px;
+        }
+    }
+    .welcome-btn {
+        text-align: center;
+        display: block;
+        margin-top: 2rem;
+        .btn {    
+            padding: 5px;
+            font-size: 10px;
+            width: 40%;
+            border-radius: 8px;
+        
+        }
+    }
+    .about-value {
+        padding: 15px 0 15px 0;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+
+}
+
+
+.track {
+    margin-top: 5rem;
+    .banner-image {
+        width: 100%;
+        img {   
+            width: inherit;
+            object-fit: contain;
+        }
+    }
+    .welcome {
+        .col-md-6 {
+            width: 50%;
+        }
+        .welcome-header {
+            font-weight: 100;
+            margin-bottom: 2rem;
+        }
+    
+        .welcome-header::after {
+            content: " ";
+            display: block;
+            position: absolute;
+            height: 1px;
+            background: black;
+            width: 80%;
+            left: 50%;
+            top: calc(50% - 12px);
+        }
+    }
+    .t-word {
+        margin-bottom: 2rem;
+        .col-md-12 {    
+            border-bottom: 1px solid black;
+            margin: 0px 15px 0 20px;
+            padding: 0;
+            padding-bottom: 10px;
+            span {
+                font-size: 1.6rem;
+            }
+        }
+    }
+    .welcome-box {
+        .welcome-message {
+            margin-top: 50px;
+            border-top: 1px solid black;
+            padding-top: 10px;
+            letter-spacing: 1.2px;
+            font-size: 12px;
+        }
+    }
+    .welcome-btn {
+        text-align: center;
+        display: block;
+        margin-top: 2rem;
+        .btn {    
+            padding: 5px;
+            font-size: 10px;
+            width: 40%;
+            border-radius: 8px;
+        
+        }
+    }
+    .about-value {
+        padding: 15px 0 15px 0;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+
+}

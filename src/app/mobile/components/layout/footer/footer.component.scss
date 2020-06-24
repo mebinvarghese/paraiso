@@ -1,0 +1,136 @@
+.footer {
+    margin-top: 2rem;
+    background-color: #cc8b4f;
+    padding: 15px;
+    color: #3b3b3b;
+    .container {
+        padding:  2rem 0 0 0;
+    }
+}
+.welcome-message {
+        font-family: Signo;
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.48;
+        letter-spacing: 0.21px;
+        text-align: left;
+        color: black;
+        padding-right: 5rem;
+    span {
+        font-family: Signo;
+        font-size: 2rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.02;
+        letter-spacing: -0.92px;
+        text-align: left;
+        color: black;
+    }
+}
+.contact {
+    margin-top: 2rem;
+    font-size: 12px;
+    color: black;
+    font-size: 1rem;
+}
+ul {
+ list-style-type: none;
+ padding-left: 0;
+ margin-top: 2rem;
+ li {
+     margin: 1rem 0;
+ }
+}
+.chat {
+    font-family: Signo;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.48;
+    letter-spacing: 0.21px;
+    text-align: left;
+    color: #382f1b;
+    margin-top: 2rem;
+    span {
+        font-family: Signo;
+        font-size: 2rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.02;
+        letter-spacing: -0.92px;
+        text-align: left;
+        color: #3b3b3b;
+    }
+    .mail {
+        margin-top: 3rem;
+    /* enable absolute positioning */
+    .inner-addon { 
+        position: relative; 
+        width: 60%;
+    }
+
+    /* style icon */
+    .inner-addon .btn {
+        position: absolute;
+        padding: 0px;
+        background: black;
+        color: white;
+        width: 40px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    /* align icon */
+    .left-addon .btn  { left:  0px;}
+    .right-addon .btn { right: 0px;}
+
+    /* add padding  */
+    .left-addon input  { padding-left:  30px; }
+    .right-addon input { padding-right: 30px; }
+        input {
+            background: transparent;
+            border-color: black;
+            border-radius: 40px;
+            padding-left: 30px;
+            height: 26px;
+        }
+    }
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: black;
+        opacity: 1;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: red;
+    }
+    
+    ::-ms-input-placeholder { /* Microsoft Edge */
+      color: red;
+    }
+    .form-control {
+        font-size: 12px;
+    }
+}
+.ftr-content {
+    margin-top: 2rem;
+}
+.social {
+    margin-top: 2rem;
+    .col-md-12 {
+        display: flex;
+        .icons {
+            padding: 10px;
+            font-size: 1.4rem;
+            color: black;
+        }
+        p {
+            line-height: 3;
+            color: black;
+            margin-left: 2rem;
+        }
+    }
+}
