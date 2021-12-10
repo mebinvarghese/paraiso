@@ -1,17 +1,13 @@
 <div class="container about">
     <div class="row welcome">
-        <div class="col-md-6">
-            <div class="">
-                <h5 class="welcome-header">About</h5>
-            </div>
-        </div>
-        <div class="col-md-4">
+        <div class="col-md-12">
+            <h5 class="welcome-header">About</h5>
         </div>
     </div>
     <div class="row t-word">
         <div class="col-md-12">
             <span>
-                More than a company, we’re a community
+                More than a company,<br>we’re a community
             </span>
 
         </div>
@@ -90,8 +86,8 @@
         <div class="col-md-12">
             <div class="welcome-box">
                 <p class="welcome-message">
-                    No matter how big or small the order is we ensure that its inspected carefully. Paying attention to
-                    the smallest detail goes a long way so we make sure that nothing goes unnoticed.
+                    No matter how big or small the order we ensure that its inspected carefully. Paying attention to the
+                    smallest detail goes a long way so we make sure that nothing goes unnoticed.
                 </p>
             </div>
         </div>
@@ -112,64 +108,45 @@
 
             <div class="content">
                 <ul>
-                    <li>
-                        1. We Connect The Dots
-                        <i class="arrow right"></i>
-
-                    </li>
-                    <li>
-                        2. It’s All About You
-                        <i class="arrow right"></i>
-
-                    </li>
-                    <li>
-                        3. Goals And Growth
-                        <i class="arrow right"></i>
-
-                    </li>
-                    <li>
-                        4. Communication Is Key
-                        <i class="arrow right"></i>
-
-                    </li>
-                    <li>
-                        5. No Task Is Too Big Or Too Small
-                        <i class="arrow right"></i>
-
-                    </li>
-                    <li>
-                        6. Eyes Always Open
-                        <i class="arrow right"></i>
-
-                    </li>
-                    <li>
-                        7. Forward Thinking
-                        <i class="arrow right"></i>
-
-                    </li>
-                    <li>
-                        8. Here to Build
-                        <i class="arrow right"></i>
-
-                    </li>
-                    <li>
-                        9. Always the helping hand
-                        <i class="arrow right"></i>
-
-                    </li>
-                    <li>
-                        10. No place like home
-                        <i class="arrow right"></i>
-                    </li>
+                    <app-collaps-li [heading]="'1. We Connect The Dots'"
+                        [description]="'We listen to what your needs are and connect you with the right resources to help you achieve your goals.'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="'2. It’s All About You'"
+                        [description]="'When you sign your contract you can rest assured of its bespoke. Not all of our services may apply. Our meetings are to ensure we guide you and see what your business needs.'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="'3. Goals And Growth'"
+                        [description]="'Most of our clients have been with us for years. We`ve seen our clients grow and have been there every step of the way. We pride ourselves in building a strong bond.'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="'4. Communication Is Key'"
+                        [description]="'You have a lot of merchandise coming our way and may have questions on every order. We`re always looking forward to your call and helping you in whatever you need.'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="'5. No Task Is Too Big Or Too Small'"
+                        [description]="'Experimenting and trying new things is something we strongly encourage. If you have a small run of a new style or a whole container, we look forward to helping you.'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="'6. Eyes Always Open'"
+                        [description]="'The fashion industry is constantly evolving so we constantly keep an eye open for new trends that may appear.'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="'Forward Thinking'"
+                        [description]="'Our team is devoted to creating new services. We never stay put, we work on recreating the wheel in order to give you something new.'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="' 8. Here to Build'"
+                        [description]="'We`re more concerned with making sure we establish a strong relationship. We do this in order to build a relationship and opportunities in which you benefit from.'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="'9. Always the helping hand'"
+                        [description]="'You can come to us with anything you may need. Do you want to know where the best places to shop are? Let us know. Want to know where to grab a bite in the fashion district? Let us know!'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="'10. No place like home'"
+                        [description]="'Doesn`t matter how far or how long you go you can always count on us to receive with a bright smile and a plan to get you on track to success.'">
+                    </app-collaps-li>
                 </ul>
             </div>
         </div>
     </div>
 </div>
-<div class="container our-team">
+<!-- <div class="container our-team">
     <div class="row larger-header">
         <div class="col-md-12">
-            <span>Meet The Team</span>
+            <span>Meet Our Team</span>
         </div>
     </div>
     <ngb-carousel [showNavigationIndicators]="true" [showNavigationArrows]="false">
@@ -206,13 +183,13 @@
                         <span class="welcome-header">Erick Sierra</span>
                         <p class="job">New Business Manger</p>
                         <p class="welcome-message">
-                            Paraiso Packing started off as a vision. A way to help clients brand themselves in a
-                            competitive
-                            market. This Idea came to Ezequiel over ten years ago. Prior to starting Paraiso Packing he
-                            was a
-                            sells representative for some of the most popular vendors in the fashion district. He uses
-                            his
-                            experience of over 10 years to best guide our clients.
+                            If you ever want to sit down with one of our team members and discuss how Paraiso Packing is
+                            a right
+                            fit for you. You’ll most likely speak with Erick. He’s been with us since the beginning and
+                            knows
+                            the ins and outs of our business. He also has a keen eye for fashion and stays on top of the
+                            latest
+                            trends.
                         </p>
                     </div>
                 </div>
@@ -228,35 +205,53 @@
                         <span class="welcome-header">Grecia Alarcon</span>
                         <p class="job">Founder</p>
                         <p class="welcome-message">
-                            Paraiso Packing started off as a vision. A way to help clients brand themselves in a
-                            competitive
-                            market. This Idea came to Ezequiel over ten years ago. Prior to starting Paraiso Packing he
-                            was a
-                            sells representative for some of the most popular vendors in the fashion district. He uses
-                            his
-                            experience of over 10 years to best guide our clients.
+                            Once you’re a part of the team Grecia is your go to person for any of your needs. She makes
+                            sure everything is lined up and ready for production. Super optimistic and determined.
+                            Making sure all your expectation are met.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </ng-template>
+        <ng-template ngbSlide>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="founder-image">
+                        <img src="./assets/images/alexander.png" alt="">
+                    </div>
+                    <div class="welcome-box">
+                        <span class="welcome-header">Cesar Barrera</span>
+                        <p class="job">Floor Manager</p>
+                        <p class="welcome-message">
+                            Legend has it that he once beat an eagle at a staring contest. Cesar has more than fifteen
+                            years of
+                            experience in clothing production. His attention to fine detail ensures that all of your
+                            merchandise
+                            is held to our high standards of production.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </ng-template>
+        <ng-template ngbSlide>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="founder-image">
+                        <img src="./assets/images/clem.png" alt="">
+                    </div>
+                    <div class="welcome-box">
+                        <span class="welcome-header">Andy Hernandez</span>
+                        <p class="job">Operations Manager</p>
+                        <p class="welcome-message">
+                            Once you come into the doors of Paraiso Packing you’ll be greeted by a big smile. Andy makes
+                            sure
+                            all of your orders get to us safe and complete. All the information that’s need to ensure
+                            that there
+                            are no issues go through Andys eyes. He’s the gatekeeper of Paraiso Packing.
                         </p>
                     </div>
                 </div>
             </div>
         </ng-template>
     </ngb-carousel>
-    <!-- <div class="row">
-        <div class="col-md-12">
-            <div class="founder-image">
-                <img src="./assets/images/founder.png" alt="">
-            </div>
-            <div class="welcome-box">
-                <span class="welcome-header">Ezequiel Sierra</span>
-                <p class="job">Founder</p>
-                <p class="welcome-message">
-                    Paraiso Packing started off as a vision. A way to help clients brand themselves in a competitive
-                    market. This Idea came to Ezequiel over ten years ago. Prior to starting Paraiso Packing he was a
-                    sells representative for some of the most popular vendors in the fashion district. He uses his
-                    experience of over 10 years to best guide our clients.
-
-                </p>
-            </div>
-        </div>
-    </div> -->
-</div>
+</div> -->

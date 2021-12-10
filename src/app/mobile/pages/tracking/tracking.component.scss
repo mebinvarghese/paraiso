@@ -1,6 +1,6 @@
 
 .about {
-    margin-top: 5rem;
+   
     .banner-image {
         width: 100%;
         img {   
@@ -13,7 +13,7 @@
             width: 50%;
         }
         .welcome-header {
-            font-weight: 400;
+            font-weight: 600;
             margin-bottom: 2rem;
         }
     
@@ -23,9 +23,9 @@
             position: absolute;
             height: 1px;
             background: black;
-            width: 15%;
-            left: 55%;
-            top: calc(50% - 15px);
+            width: 80px;
+            left: 70px;
+            top: 14px;
         }
     }
     .t-word {
@@ -45,7 +45,6 @@
             margin-top: 50px;
             border-top: 1px solid black;
             padding-top: 10px;
-            letter-spacing: 1.2px;
             font-size: 12px;
         }
     }
@@ -70,7 +69,7 @@
         margin: 5rem 0;
         span {
             font-size: 1.3rem;
-            font-weight: 100;
+            font-weight: 600;
         }
         ul {
         list-style-type: none;
@@ -78,15 +77,15 @@
         margin-top: 2rem;
         border-top: 1px solid black;
         li {
-            margin: 1rem 0 0 0;
+            margin: 0.5rem 0 0 0;
             border-bottom: 1px solid #827b6c;
-            padding: 0 0 1rem 0;
+            padding: 0 0 0.5rem 0;
         }
         }
     }
 }
 .bridging {
-    margin-top: 5rem;
+    margin-top: 2rem;
     color: #382f1b;
 
     .welcome-box {
@@ -100,12 +99,10 @@
             margin-top: 2rem;
             border-top: 1px solid black;
             padding-top: 10px;
-            letter-spacing: 1.2px;
             font-size: 12px;
         }
         .team-desc {
             padding-top: 10px;
-            letter-spacing: 1.2px;
             font-size: 12px;
         }
     }
@@ -144,12 +141,96 @@
       color: red;
     }
     .larger-header {
-            text-align: center;
+        span{
+          text-align: left;
             padding: 1rem 0;
             border-bottom: 1px solid black;
-            border-top: 1px solid black;
+      
             font-weight: 400;
             font-size: 3rem;
             margin: 5rem auto;
+            margin-bottom: 1rem;
+            display: block;
+            margin-top: 0;
+            padding-top: 0;
+            line-height: 3rem;
+        }
+        p{
+            font-size: 12px;
+            margin-bottom: 2rem;
+        }
+            
+    }
+     .content {
+        font-size: 14px;
+         h4{
+             text-align: left;
+            padding: 1rem 0;
+            
+      
+            font-weight: 400;
+            font-size: 3rem;
+            margin: 5rem auto;
+            margin-bottom: 0rem;
+            display: block;
+            margin-top: 2rem;
+            padding-top: 0;
+            line-height: 3rem;
+         }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin-bottom: 5rem;
+            li:first-child{
+                border-top: 1px solid black;
+            }
+            li {
+                padding: 10px 15px;
+                border-bottom: 1px solid black;
+                font-size: 12px;
+                padding-left: 0;
+                .arrow {
+                    border: solid black;
+                    border-width: 0 1px 1px 0;
+                    display: inline-block;
+                    padding: 3px;
+                    float: right;
+                    margin-top: 5px;
+                }
+                .right {
+                    transform: rotate(-45deg);
+                    -webkit-transform: rotate(-45deg);
+                }
+            }
+        }
+    }
+    .stay_up {
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        padding: 1rem 0;
+        margin: 5rem auto;
+        h4{
+            text-align: center;
+            font-weight: 400;
+            font-size: 3rem;
+        }
+        button{
+            padding: 5px;
+            font-size: 14px;
+            min-width: 150px;
+            border-radius: 8px;
+            color: #343a40;
+            border:1px solid #343a40;
+            background: none;
+            margin: auto;
+            display: block;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            &:hover{
+                color: #fff;
+                background-color: #343a40;
+                border-color: #343a40;
+            }
+        }
     }
 }

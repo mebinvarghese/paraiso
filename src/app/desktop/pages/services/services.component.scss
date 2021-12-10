@@ -1,22 +1,42 @@
 .about-us {
-    margin-top: 5rem;
+    margin-top: 140px;
+    .row {
+        position: relative;
+        @media (min-width:992px){
+           .serv_head {
+            position: absolute;
+            top: -86px;
+            font-size: 120px;
+            left: 30px;
+            z-index: 1;
+        } 
+        }
+        @media (min-width:1200px){
+          .serv_head {
+            position: absolute;
+            top: -86px;
+            font-size: 150px;
+            left: 30px;
+            z-index: 1;
+        }      
+        }
+    }
     .key-point {
-        position: absolute;
-        bottom: 0;
+         padding-left: 60px;
         span {
-            font-size: 1.3rem;
-            font-weight: 100;
+            font-size: 1.5rem;
+            font-weight: 600;
         }
         ul {
         list-style-type: none;
         padding-left: 0;
-        margin-top: 2rem;
-        width: 25vw;
-        li {
-            margin: 1rem 0 0 0;
+        margin-top: 35px;
+        
+             li {
             border-bottom: 1px solid #827b6c;
-            padding: 0 0 1rem 0;
+            padding: 0.5rem 0 0.5rem 0;
         }
+            li:first-child {border-top: 1px solid #827b6c;}
         }
     }
     .side-image {
@@ -26,17 +46,18 @@
     }
 
     .welcome-box {
-        padding-left: 60px;
-        position: absolute;
-        bottom: 0;
+        padding-left: 0px;
+        margin-bottom: 20px;
+        @media (max-width:1199px){margin-bottom: 50px;}
         .welcome-header {
-            font-weight: 500;
+            font-size: 1.5rem;
+            font-weight: 600;
         }
         .welcome-message {
-            margin-top: 20px;
+            margin-top: 35px;
             border-top: 1px solid black;
             padding-top: 10px;
-            letter-spacing: 1.2px;
+            
             font-size: 12px;
         }
     }
@@ -46,11 +67,12 @@
     color: #382f1b;
     .larger-header {
             text-align: center;
-            padding: 1rem 0;
+            padding: 0;
+            padding-bottom: 1rem;
             border-bottom: 1px solid black;
             border-top: 1px solid black;
             font-weight: 500;
-            font-size: 5rem;
+            font-size: 6rem;
     }
     .believe {
         .first {
@@ -127,15 +149,16 @@
     }
 }
 .process {
-    margin-top: 10rem;
+    margin-top: 6rem;
     color: #382f1b;
     .larger-header {
             text-align: center;
-            padding: 1rem 0;
+            padding: 0;
+            padding-bottom: 1rem;
             border-bottom: 1px solid black;
             border-top: 1px solid black;
             font-weight: 500;
-            font-size: 5rem;
+            font-size: 6rem;
     }
     .working {
         margin-top: 5rem;
@@ -148,7 +171,7 @@
             margin-top: 20px;
             border-top: 1px solid black;
             padding-top: 10px;
-            letter-spacing: 1.2px;
+            
             font-size: 12px;
         }
         h5 {
@@ -157,32 +180,64 @@
             margin: 2rem 0;
             height: 3rem;
             text-align: center;
+            font-weight: 600;
         }
     }
 }
 .quote {
     margin-top: 10rem;
+    margin-bottom: 10rem;
     color: #382f1b;
+    .row{
+        position: relative;
+          a.left-link, a.right-link{
+               position: absolute;
+               top: 45%;
+               z-index: 1;
+               color: #b87d47;
+               text-decoration: underline;
+            }
+                a.left-link{
+                  left: -15px;
+                  transform: rotate(-90deg);
+                -webkit-transform: rotate(-90deg);
+                -moz-transform: rotate(-90deg);
+                -ms-transform: rotate(-90deg);
+                -o-transform: rotate(-90deg);
+                filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+                }
+                a.right-link{
+                  right: -15px;
+                  transform: rotate(90deg);
+                -webkit-transform: rotate(90deg);
+                -moz-transform: rotate(90deg);
+                -ms-transform: rotate(90deg);
+                -o-transform: rotate(90deg);
+                filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+                }
+    }
     .welcome-box {
         padding: 0 60px;
         bottom: 0;
         margin-bottom: 7rem;
         .welcome-header {
-            font-weight: 100;
+            font-weight: 600;
             font-size: 3rem;
+            border-bottom: 1px solid #333;
+            padding-bottom: 2.3rem;
         }
         .mail {
             margin-top: 2rem;
             border-top: 1px solid black;
             padding-top: 10px;
-            letter-spacing: 1.2px;
+            
             font-size: 12px;
         }
         .team-desc {
-            margin-top: 2rem;
+            margin-top: 5px;
             padding-top: 10px;
-            letter-spacing: 1.2px;
-            font-size: 12px;
+            
+            font-size: 14px;
         }
     }
     .inner-addon { 

@@ -1,120 +1,150 @@
-.footer {
-    margin-top: 5rem;
-    background-color: #cc8b4f;
-    color: #3b3b3b;
+footer{
+    background: #cc8b4f;
+    color: #000;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+footer h4 {
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 30px;
+}
+footer .abt-p {
+    border-bottom: 1px solid #382f1b;
+    padding-bottom: 30px;
+}
+footer p, footer .col-md-12 span:last-child {font-size: 14px;}
+footer span a{
+    margin-right: 15px;
+    color: #000;
+    font-size: 24px;
+}
+footer span a:hover {
+    color: #000;
+    opacity: 0.8;
+}
+footer ul{
+    margin: 0;
+    padding: 0;
+}
+footer ul li {
+    list-style: none;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+footer ul li a {
+    color: #000;
+    text-decoration: none;
+}
+footer ul li a:hover {
+    opacity: 0.8;
+    text-decoration: none;
+    color: #000;
+}
+footer .subscribe {
+    position: relative;
+    margin-top: 80px;
+}
+footer .subscribe input {
+    background: none;
+    border-radius: 50px;
+    border: 1px solid #382f1b;
+    padding: 5px 30px;
+    width: 100%;
+    padding-right: 45px;
+    outline: none;
+    
+}
+.subscribe input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+footer .subscribe button {
+    background: #000;
+    color: #cc8b4f;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    cursor: pointer;
+    border:none;
+    outline: none;
+    padding: 6px 12px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+footer .row .col-md-6 p{
+    color: #000;
+}
+footer .col-md-12 {
+    margin-top: 80px;
+}
+footer .col-md-4.pl {
+    padding-left: 80px;
+}
+@media only screen and (min-width: 991px) and (max-width: 1200px)  {
     .container {
-        padding:  2rem 0;
+        max-width: 1024px;
+    }
+    .top-text, .bot-text {font-size: 110px;}
+    .bot-text{right:-450px;}
+    .sections {
+        padding-left: 80px;
     }
 }
-.welcome-message {
-        font-family: Signo;
-        font-size: 12px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.48;
-        letter-spacing: 0.21px;
-        text-align: left;
-        color: #382f1b;
-        padding-right: 5rem;
-    span {
-        font-family: Signo;
-        font-size: 2rem;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.02;
-        letter-spacing: -0.92px;
-        text-align: left;
-        color: #3b3b3b;
+.sections .col-md-6 {
+    max-width: 450px;
+    padding: 0;
+    padding-right: 50px;
+    margin-bottom: 100px;
+}
+@media (max-width:991px){
+.bnnr-row {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+    .top-text, .bot-text {
+        display: none;
     }
 }
-.contact {
-    margin-top: 2rem;
-    font-size: 12px;
+@media (max-width:992px){
+        .navbar-nav {
+    background: #cc8b4f;
+    margin-top: 15px;
 }
-ul {
- list-style-type: none;
- padding-left: 0;
- margin-top: 2rem;
- li {
-     margin: 1rem 0;
-     cursor: pointer;
- }
 }
-.chat {
-    font-family: Signo;
-    font-size: 12px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.48;
-    letter-spacing: 0.21px;
-    text-align: left;
-    color: #382f1b;
-    span {
-        font-family: Signo;
-        font-size: 2rem;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.02;
-        letter-spacing: -0.92px;
-        text-align: left;
-        color: #3b3b3b;
-    }
-    .mail {
-        margin-top: 3rem;
-    /* enable absolute positioning */
-    .inner-addon { 
-        position: relative; 
-    }
-
-    /* style icon */
-    .inner-addon .btn {
-        position: absolute;
-        padding: 6px;
-        background: black;
-        color: white;
-        width: 40px;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
-    }
-
-    /* align icon */
-    .left-addon .btn  { left:  0px;}
-    .right-addon .btn { right: 0px;}
-
-    /* add padding  */
-    .left-addon input  { padding-left:  30px; }
-    .right-addon input { padding-right: 30px; }
-        input {
-            background: transparent;
-            border-color: black;
-            border-radius: 40px;
+@media (min-width:992px){
+        .navbar-nav {
+    background: none;
+    margin-top: 0;
+}
+}
+     @media (min-width:769px) and (max-width:991px){
+        .sections {
             padding-left: 30px;
         }
     }
-    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-        color: black;
-        opacity: 1;
+@media (max-width:768px){
+    .bnnr-row {
+        padding: 15px;
     }
-    :-ms-input-placeholder { /* Internet Explorer 10-11 */
-      color: red;
+    .bnnr-row .col-md-6:last-child {
+        margin-top: 15px;
+        padding-left: 15px;
     }
-    
-    ::-ms-input-placeholder { /* Microsoft Edge */
-      color: red;
+    .sections {
+        padding-left: 30px;
+        padding-top: 30px;
+        padding-right: 30px;
     }
-}
-.social {
-    margin-top: 2rem;
-    .col-md-6 {
-        display: flex;
-        .icons {
-            padding: 10px;
-            font-size: 1.4rem;
-            color: black;
-        }
+    .sections .col-md-6 {
+        margin-bottom: 60px;
+        padding: 0;
+    }
+    footer .col-md-4.pl {
+        padding-left: 15px;
+    }
+    footer .col-md-4 {
+        margin-bottom: 15px;
     }
 }

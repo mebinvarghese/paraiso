@@ -1,8 +1,9 @@
 <div class="container about-us">
-    <div class="row">
+    <div class="row align-items-end">
+        <h2 class="trac_head">Tracking</h2>
         <div class="col-md-4">
             <div class="key-point">
-                <span>Lacus vel</span>
+                <span>Key Points</span>
                 <ul>
                     <li>
                         Online tracking system
@@ -23,13 +24,14 @@
         </div>
         <div class="col-md-4">
             <div class="welcome-box">
-                <span class="welcome-header">Never Miss A Step</span>
+                <span class="welcome-header">Stay close from a distance</span>
                 <p class="welcome-message">
-                    We believe that in order for us to be happy we need to be on the same page! Yes we want to provide
-                    you with top quality services. Yes we want you to cry tears of joy when you receive your
-                    merchandise. More importantly we want you to know everything. In order for us to be on the same
-                    page we developed our own personal tracking system. This system makes sure you and I both know
-                    what’s going on with your merchandise.
+                    We believe that in order for us to be happy we need to be <br>on the same page! Yes we want to
+                    provide
+                    you with top quality services. Yes we want you to cry tears of joy when you receive your
+                    merchandise. More importantly we want you to know everything. In order for us to be on the same page
+                    we developed our own personal tracking system. This system makes sure you and I both know what’s
+                    going on with your merchandise.
                 </p>
             </div>
         </div>
@@ -44,10 +46,10 @@
             </div>
             <div class="content">
                 <p>
-                    You can now keep track of all of your merchandise every step of the way. From the moment its sent
-                    to us from your preferred vendor to the moment we begin to work on the pieces. Once you sign upto
-                    our tracking program you’ll receive notifications to your email where you can be with us every step
-                    of the way.
+                    You can now keep track of all of your merchandise every step of the way. From the moment its sent to
+                    us from your preferred vendor to the moment we begin to work on the pieces. Once you sign up to our
+                    tracking program you’ll receive notifications to your email where you can be with us every step of
+                    the way.
                 </p>
             </div>
         </div>
@@ -57,20 +59,32 @@
             </div>
             <div class="content">
                 <ul>
-                    <app-collaps-li [heading]="'1. Check on the status of your order'"></app-collaps-li>
-                    <app-collaps-li [heading]="'2. Keep track of all boxes per shipment'"> </app-collaps-li>
-                    <app-collaps-li [heading]="'3. Create your own user profile'"> </app-collaps-li>
-                    <app-collaps-li [heading]="'4. Receive expected shipping date'"></app-collaps-li>
-                    <app-collaps-li [heading]="'5. Upload your own documents'"></app-collaps-li>
+                    <app-collaps-li [heading]="'1. Check on the status of your order'"
+                        [description]="'Get a notification when your merchandise just got to our warehouse or when it`s being shipped out.'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="'2. Keep track of all boxes per shipment'"
+                        [description]="'You can now see the exact number of boxes that are being shipped with the corresponding invoices.'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="'3. Create your own user profile'"
+                        [description]="'You can customize your profile and update us on your contact information in order for us to keep in touch.'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="'4. Receive expected shipping date'"
+                        [description]="'We give you a heads up as to when we think your order will be shipped. This way you can plan ahead of time.'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="'5. Upload your own documents'"
+                        [description]="'If you have any documents you would like to add to an order you can upload them directly.'">
+                    </app-collaps-li>
                 </ul>
             </div>
         </div>
     </div>
     <div class="row larger-header">
+        <a routerLink="/contact" class="left-link">Contact</a>
         <div class="col-md-12">
-            <span>Already a Member?</span><br>
-            <a type="button" class="btn btn-outline-dark" href="https://web.paraisopackinginc.com/" target="_blank">Log
+            <span>Stay Updated</span><br>
+            <a type="button" class="btn btn-outline-dark" href="https://wms.paraisopackinginc.com/login" target="_blank">Log
                 In</a>
         </div>
+        <a routerLink="/home" class="right-link">Home</a>
     </div>
 </div>

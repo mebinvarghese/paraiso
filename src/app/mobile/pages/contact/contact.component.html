@@ -1,12 +1,11 @@
 <div class="container about">
     <div class="row welcome">
-        <div class="col-md-6">
-            <div class="">
-                <h5 class="welcome-header">Contact</h5>
-            </div>
+        <div class="col-md-12">
+
+            <h5 class="welcome-header">Contact</h5>
+
         </div>
-        <div class="col-md-4">
-        </div>
+
     </div>
     <div class="row t-word">
         <div class="col-md-12">
@@ -37,16 +36,16 @@
                 <span>Key Points</span>
                 <ul>
                     <li>
-                        Accounting@paraisopacking.com
+                        Quick response
                     </li>
                     <li>
-                        New.Business@paraisopacking.com
+                        Extremely accessible
                     </li>
                     <li>
-                        Customer.Care@paraisopacking.com
+                        Reach out any time of the day
                     </li>
                     <li>
-                        Management@paraisopacking.com
+                        Team is ready to help out
                     </li>
                 </ul>
             </div>
@@ -59,7 +58,11 @@
             <div class="welcome-box">
                 <span class="welcome-header">Accounting</span>
                 <p class="mail">
-                    accounting@paraisopacking.com
+                    <!-- accounting@paraisopacking.com -->
+                    <a href="mailto:invoicing@paraisopacking.net" target="_blank">
+                        <img src="./assets/images/Icons/shakehands-small.png" alt="">
+                        We’re here to help
+                    </a>
                 </p>
             </div>
         </div>
@@ -67,7 +70,12 @@
             <div class="welcome-box">
                 <span class="welcome-header">Customer Care</span>
                 <p class="mail">
-                    customer.care@paraisopacking.com
+                    <!-- customer.care@paraisopacking.com -->
+
+                    <a href="mailto:management@paraisopacking.net" target="_blank">
+                        <img src="./assets/images/Icons/star-small.png" alt="" style="width: 20px;">
+                        We have answers
+                    </a>
                 </p>
             </div>
         </div>
@@ -75,7 +83,13 @@
             <div class="welcome-box">
                 <span class="welcome-header">New Business</span>
                 <p class="mail">
-                    new.business@paraisopacking.com
+                    <!-- new.business@paraisopacking.com -->
+
+                    <a href="mailto:info@paraisopacking.net" target="_blank">
+                        <img src="./assets/images/Icons/love-small.png" alt="" style="width: 20px;
+                        vertical-align: middle;">
+                        Welcome to the team
+                    </a>
                 </p>
             </div>
         </div>
@@ -83,7 +97,13 @@
             <div class="welcome-box">
                 <span class="welcome-header">Management </span>
                 <p class="mail">
-                    management@paraisopacking.com
+                    <!-- management@paraisopacking.com -->
+
+                    <a href="mailto:grecia@paraisopacking.net" target="_blank">
+                        <img src="./assets/images/Icons/warning-small.png" alt="" style="width: 20px;
+                        vertical-align: middle;">
+                        It’s really important
+                    </a>
                 </p>
             </div>
         </div>
@@ -97,8 +117,7 @@
             </div>
         </div>
         <div class="col-md-6">
-            <div class="welcome-box">
-            </div>
+
 
             <div class="inner-addon right-addon">
                 <button class="btn"><i class="fa fa-play"></i></button>
@@ -106,9 +125,26 @@
             </div>
         </div>
     </div>
-    <div class="row larger-header">
+    <!-- <div class="row larger-header">
         <div class="col-md-12">
             <span>Follow Us</span>
         </div>
     </div>
+    <div class="row instagram-header">
+        <div class="col-md-12">
+            <ngb-carousel [showNavigationIndicators]="true" [showNavigationArrows]="false">
+                <ng-container *ngFor="let insta of instagram">
+                    <ng-template ngbSlide>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="founder-image">
+                                    <img [src]="insta.images" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </ng-template>
+                </ng-container>
+            </ngb-carousel>
+        </div>
+    </div> -->
 </div>

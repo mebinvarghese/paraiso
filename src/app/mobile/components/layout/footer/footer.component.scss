@@ -6,6 +6,23 @@
     .container {
         padding:  2rem 0 0 0;
     }
+    h3{
+        font-family: Signo;
+        font-size: 2rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.02;
+        letter-spacing: -0.92px;
+        text-align: left;
+        color: #000;
+    }
+    ul {
+        li{
+            font-size: 1.3rem;
+            color: #000;
+        }
+    }
 }
 .welcome-message {
         font-family: Signo;
@@ -16,7 +33,7 @@
         line-height: 1.48;
         letter-spacing: 0.21px;
         text-align: left;
-        color: black;
+        color: #333;
         padding-right: 5rem;
     span {
         font-family: Signo;
@@ -27,13 +44,13 @@
         line-height: 1.02;
         letter-spacing: -0.92px;
         text-align: left;
-        color: black;
+        color: #000;
     }
 }
 .contact {
     margin-top: 2rem;
     font-size: 12px;
-    color: black;
+    color: #000;
     font-size: 1rem;
 }
 ul {
@@ -64,7 +81,7 @@ ul {
         line-height: 1.02;
         letter-spacing: -0.92px;
         text-align: left;
-        color: #3b3b3b;
+        color: #000;
     }
     .mail {
         margin-top: 3rem;
@@ -72,6 +89,9 @@ ul {
     .inner-addon { 
         position: relative; 
         width: 60%;
+    }
+    .fa-play {
+        color: #cc8b4f;
     }
 
     /* style icon */
@@ -96,7 +116,7 @@ ul {
             background: transparent;
             border-color: black;
             border-radius: 40px;
-            padding-left: 30px;
+            padding-left: 15px;
             height: 26px;
         }
     }

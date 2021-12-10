@@ -1,6 +1,6 @@
 
 .about {
-    margin-top: 5rem;
+   
     .banner-image {
         width: 100%;
         img {   
@@ -13,7 +13,7 @@
             width: 50%;
         }
         .welcome-header {
-            font-weight: 400;
+            font-weight: 600;
             margin-bottom: 2rem;
         }
     
@@ -23,9 +23,9 @@
             position: absolute;
             height: 1px;
             background: black;
-            width: 15%;
-            left: 55%;
-            top: calc(50% - 15px);
+            width: 80px;
+            left: 100px;
+            top: 14px;
         }
     }
     .t-word {
@@ -37,6 +37,7 @@
             padding-bottom: 10px;
             span {
                 font-size: 1.6rem;
+                font-weight: 600;
             }
         }
     }
@@ -45,7 +46,6 @@
             margin-top: 50px;
             border-top: 1px solid black;
             padding-top: 10px;
-            letter-spacing: 1.2px;
             font-size: 12px;
         }
     }
@@ -67,10 +67,10 @@
         border-bottom: 1px solid black;
     }
     .key-point {
-        margin: 5rem 0;
+        margin: 2rem 0;
         span {
             font-size: 1.3rem;
-            font-weight: 100;
+            font-weight: 600;
         }
         ul {
         list-style-type: none;
@@ -78,35 +78,46 @@
         margin-top: 2rem;
         border-top: 1px solid black;
         li {
-            margin: 1rem 0 0 0;
+            margin: 0.5rem 0 0 0;
             border-bottom: 1px solid #827b6c;
-            padding: 0 0 1rem 0;
+            padding: 0 0 0.5rem 0;
         }
         }
     }
 }
 .bridging {
-    margin-top: 5rem;
+    margin-top: 2rem;
     color: #382f1b;
 
     .welcome-box {
         bottom: 0;
         margin-bottom: 3rem;
         .welcome-header {
-            font-weight: 100;
+            font-weight: 600;
             font-size: 2rem;
         }
         .mail {
-            margin-top: 2rem;
+            margin-top: 1rem;
             border-top: 1px solid black;
-            padding-top: 10px;
-            letter-spacing: 1.2px;
-            font-size: 12px;
+            padding-top: 30px;
+            font-size: 16px;
+            text-align: center;
+            a {
+                border: 1px solid black;
+                padding: 5px 25px;
+                border-radius: 20px;
+                font-size: 14px;
+                margin-top: 2rem;
+                color: black;
+                img {
+                  width: 25px;
+                  margin-right: 10px;
+                }
+              }
         }
         .team-desc {
             padding-top: 10px;
-            letter-spacing: 1.2px;
-            font-size: 12px;
+            font-size: 16px;
         }
     }
     .inner-addon { 
@@ -151,5 +162,12 @@
             font-weight: 400;
             font-size: 3rem;
             margin: 5rem auto;
+    }
+}
+.founder-image {
+    img {
+        width: 100%;
+        margin: auto;
+        display: block;
     }
 }

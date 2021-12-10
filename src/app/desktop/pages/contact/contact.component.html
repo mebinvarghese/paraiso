@@ -1,20 +1,21 @@
 <div class="container about-us">
-    <div class="row">
+    <div class="row align-items-end">
+        <h2 class="cont_head">Contact</h2>
         <div class="col-md-4">
             <div class="key-point">
                 <span>Key Points</span>
                 <ul>
                     <li>
-                        accounting@paraisopacking.com
+                        Quick response
                     </li>
                     <li>
-                        customer.care@paraisopacking.com
+                        Extremely accessible
                     </li>
                     <li>
-                        new.business@paraisopacking.com
+                        Reach out any time of the day
                     </li>
                     <li>
-                        management@paraisopacking.com
+                        Team is ready to help out
                     </li>
                 </ul>
             </div>
@@ -44,7 +45,11 @@
             <div class="welcome-box">
                 <span class="welcome-header">Accounting</span>
                 <p class="mail">
-                    accounting@paraisopacking.com
+                    <!-- accounting@paraisopacking.com -->
+                    <a href="mailto:invoicing@paraisopacking.net" target="_blank">
+                        <img src="./assets/images/Icons/shakehands-small.png" alt="">
+                        We’re here to help
+                    </a>
                 </p>
             </div>
         </div>
@@ -52,7 +57,12 @@
             <div class="welcome-box">
                 <span class="welcome-header">Customer Care</span>
                 <p class="mail">
-                    customer.care@paraisopacking.com
+                    <!-- customer.care@paraisopacking.com -->
+
+                    <a href="mailto:management@paraisopacking.net" target="_blank">
+                        <img src="./assets/images/Icons/star-small.png" alt="" style="width: 20px;">
+                        We have answers
+                    </a>
                 </p>
             </div>
         </div>
@@ -60,7 +70,13 @@
             <div class="welcome-box">
                 <span class="welcome-header">New Business</span>
                 <p class="mail">
-                    new.business@paraisopacking.com
+                    <!-- new.business@paraisopacking.com -->
+
+                    <a href="mailto:info@paraisopacking.net" target="_blank">
+                        <img src="./assets/images/Icons/love-small.png" alt="" style="width: 20px;
+                        vertical-align: middle;">
+                        Welcome to the team
+                    </a>
                 </p>
             </div>
         </div>
@@ -68,7 +84,13 @@
             <div class="welcome-box">
                 <span class="welcome-header">Management </span>
                 <p class="mail">
-                    management@paraisopacking.com
+                    <!-- management@paraisopacking.com -->
+
+                    <a href="mailto:grecia@paraisopacking.net" target="_blank">
+                        <img src="./assets/images/Icons/warning-small.png" alt="" style="width: 20px;
+                        vertical-align: middle;">
+                        It’s really important
+                    </a>
                 </p>
             </div>
         </div>
@@ -93,9 +115,38 @@
             </div>
         </div>
     </div>
-    <div class="row larger-header">
+    <!-- <div class="row larger-header">
         <div class="col-md-12">
             <span>Follow Us</span>
         </div>
     </div>
+    <div class="row" style="position: relative;">
+        <a routerLink="/services" class="left-link">Service</a>
+        <div class="col-md-12">
+            <ngx-slick-carousel class="home-slider" [config]="instaSlideConfig">
+                <ng-container *ngFor="let insta of instagram">
+                    <div ngxSlickItem>
+                        <a [href]="insta.link" target="_blank">
+                            <div class="instagram-box">
+                                <img [src]="insta.images" alt="Avatar" style="width:100%">
+                            </div>
+                        </a>
+                    </div>
+                </ng-container>
+            </ngx-slick-carousel>
+        </div>
+        <div class="col-md-12 social">
+            <span>
+                <a href="https://www.instagram.com/paraisopacking/" target="_blank">
+                    <i class="fa fa-instagram" aria-hidden="true" style="margin-right: 10px;"></i> ParaisoPacking
+                </a>
+            </span>
+            <span style="margin-left: 3rem;">
+                <a href="#">
+                    <i class="fa fa-pinterest" aria-hidden="true" style="margin-right: 10px;"></i>Paraiso_Packing
+                </a>
+            </span>
+        </div>
+        <a routerLink="/tracking" class="right-link">Tracking</a>
+    </div> -->
 </div>

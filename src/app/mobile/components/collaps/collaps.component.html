@@ -2,9 +2,9 @@
     <span [style.font-weight]="isCollaple ? '800': 'normal'">{{heading}}</span>
     <i class="arrow right" *ngIf="!isCollaple"></i>
     <i class="arrow down" *ngIf="isCollaple"></i>
-    <div style="margin-top: 1rem;" *ngIf="isCollaple">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos eos fuga quis enim
-            consequuntur magnam! Accusantium possimus nobis error amet tempora vitae non aliquam
-            ducimus earum eius ab, mollitia vero!</p>
-    </div>
+    <ng-container *ngIf="isCollaple">
+
+        <div style="margin-top: 1rem;" [innerHTML]="description">
+        </div>
+    </ng-container>
 </li>

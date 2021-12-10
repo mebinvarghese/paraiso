@@ -1,6 +1,6 @@
 
 .about {
-    margin-top: 5rem;
+    
     .banner-image {
         width: 100%;
         img {   
@@ -13,7 +13,7 @@
             width: 50%;
         }
         .welcome-header {
-            font-weight: 400;
+            font-weight: 600;
             margin-bottom: 2rem;
         }
     
@@ -23,9 +23,9 @@
             position: absolute;
             height: 1px;
             background: black;
-            width: 15%;
-            left: 55%;
-            top: calc(50% - 15px);
+            width: 80px;
+            left: 100px;
+            top: 14px;
         }
     }
     .t-word {
@@ -45,7 +45,7 @@
             margin-top: 50px;
             border-top: 1px solid black;
             padding-top: 10px;
-            letter-spacing: 1.2px;
+            
             font-size: 12px;
         }
     }
@@ -67,10 +67,10 @@
         border-bottom: 1px solid black;
     }
     .key-point {
-        margin: 5rem 0;
+        margin: 2rem 0;
         span {
             font-size: 1.3rem;
-            font-weight: 100;
+            font-weight: 600;
         }
         ul {
         list-style-type: none;
@@ -78,15 +78,15 @@
         margin-top: 2rem;
         border-top: 1px solid black;
         li {
-            margin: 1rem 0 0 0;
+            margin: 0.5rem 0 0 0;
             border-bottom: 1px solid #827b6c;
-            padding: 0 0 1rem 0;
+            padding: 0 0 0.5rem 0;
         }
         }
     }
 }
 .bridging {
-    margin-top: 5rem;
+    margin-top: 2rem;
     color: #382f1b;
 
     .welcome-box {
@@ -100,12 +100,12 @@
             margin-top: 2rem;
             border-top: 1px solid black;
             padding-top: 10px;
-            letter-spacing: 1.2px;
+            
             font-size: 12px;
         }
         .team-desc {
             padding-top: 10px;
-            letter-spacing: 1.2px;
+            
             font-size: 12px;
         }
     }
@@ -145,11 +145,150 @@
     }
     .larger-header {
             text-align: center;
-            padding: 1rem 0;
+            padding: 0;
             border-bottom: 1px solid black;
             border-top: 1px solid black;
             font-weight: 400;
-            font-size: 3rem;
+            font-size: 2.6rem;
             margin: 5rem auto;
+            margin-bottom: 2rem;
+            padding: 10px 0;
     }
+     .content {
+        font-size: 14px;
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin-bottom: 5rem;
+            li:first-child{
+                border-top: 1px solid black;
+            }
+            li {
+                padding: 10px 15px;
+                border-bottom: 1px solid black;
+                font-size: 12px;
+                padding-left: 0;
+                .arrow {
+                    border: solid black;
+                    border-width: 0 1px 1px 0;
+                    display: inline-block;
+                    padding: 3px;
+                    margin-top: 5px;
+                }
+                .right {
+                    transform: rotate(-45deg);
+                    -webkit-transform: rotate(-45deg);
+                }
+            }
+        }
+    }
+
+}
+    .process {
+    margin-top: 2rem;
+    color: #382f1b;
+    .larger-header {
+            text-align: center;
+            padding: 0;
+            border-bottom: 1px solid black;
+            border-top: 1px solid black;
+            font-weight: 500;
+            font-size: 3rem;
+    }
+    .working {
+        margin-top: 5rem;
+        padding: 0 15px;
+        img {
+            margin: auto;
+            display: block;
+            width: 80px;
+        }
+        .welcome-message {
+            margin-top: 20px;
+            border-top: 1px solid black;
+            padding-top: 10px;
+            
+            font-size: 12px;
+            
+            margin-bottom: 5rem;
+        }
+        h5 {
+            font-size: 2rem;
+            padding: 0 2rem;
+            margin: auto;
+            font-weight: 600;
+            text-align: center;
+            color: #000;
+            max-width: 300px;
+            margin-top: 2rem;
+        }
+    }
+}
+.quote {
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+    color: #382f1b;
+ 
+    .welcome-box {
+        
+        bottom: 0;
+        margin-bottom: 0rem;
+        .welcome-header {
+            font-weight: 600;
+            font-size: 2rem;
+            
+            padding-bottom: 2.3rem;
+        }
+        .mail {
+            margin-top: 2rem;
+            border-top: 1px solid black;
+            padding-top: 10px;
+            
+            font-size: 12px;
+        }
+        .team-desc {
+            margin-top: 1rem;
+            padding-top: 10px;
+            
+            font-size: 12px;
+        }
+    }
+    .inner-addon { 
+        position: relative; 
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .inner-addon .btn {
+        position: absolute;
+        padding: 2px;
+        background: black;
+        color: white;
+        width: 40px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .left-addon .btn  { left:  0px;}
+    .right-addon .btn { right: 0px;}
+    .left-addon input  { padding-left:  30px; }
+    .right-addon input { padding-right: 30px; }
+    input {
+        background: transparent;
+        border-color: black;
+        border-radius: 40px;
+        padding-left: 30px;
+        height: 30px;
+        box-shadow: none;
+    }
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: black;
+        opacity: 1;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: red;
+    }
+    
+    ::-ms-input-placeholder { /* Microsoft Edge */
+      color: red;
+    }
+
 }

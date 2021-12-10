@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './tracking.component.html',
   styleUrls: ['./tracking.component.scss']
 })
-export class ContactComponent implements OnInit {
+export class TrackingComponent implements OnInit {
 
   constructor() { }
 

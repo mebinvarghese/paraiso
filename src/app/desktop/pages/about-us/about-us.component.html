@@ -1,5 +1,6 @@
 <div class="container about-us">
-    <div class="row">
+    <div class="row align-items-end">
+        <h2 class="abt_head">About</h2>
         <div class="col-md-4">
             <div class="key-point">
                 <span>Key Points</span>
@@ -29,8 +30,8 @@
                 <span class="welcome-header">More than a company,<br>
                     we’re a community</span>
                 <p class="welcome-message">
-                    Paraiso Packing has been providing clients with the tools to succeed for over 10 years. We pride
-                    ourselves in building strong relationships with our clients. With over 20 years of experience in
+                    Paraiso Packing has been providing clients with the tools to succeed for over 10 years. We pride
+                    ourselves in building strong relationships with our clients. With over 20 years of experience in
                     the fashion industry and the Los Angeles fashion district we are capable of pointing our clients in
                     the right direction and answering any questions they may have. Once you’re a part of our team, we
                     look forward to setting goals for your business and help you accomplish them.
@@ -47,9 +48,10 @@
         </div>
     </div>
     <div class="row content">
-        <div class="col-md-6" style="border-right: 1px solid black;">
+        <div class="col-md-6" style="border-right: 1px solid black;padding-right: 25px;">
             <p>
-                Starting a business can be confusing and filled with questions. We are here to bridge the gap between
+                Starting a business can be confusing and filled with questions. We are here to bridge the gap
+                between
                 you and any obstacles you may face in your new journey.
 
             </p>
@@ -69,9 +71,8 @@
             </div>
             <div class="content">
                 <p>
-                    No matter how big or small the order we ensure that its inspected carefully. Paying attention to
-                    the
-                    smallest detail goes a long way so we make sure that nothing goes unnoticed.
+                    No matter how big or small the order we ensure that its inspected carefully. Paying attention to the
+                    smallest detail goes a long way so we make sure that nothing goes unnoticed.
                 </p>
             </div>
         </div>
@@ -81,29 +82,49 @@
             </div>
             <div class="content">
                 <ul>
-                    <app-collaps-li [heading]="'1. We Connect The Dots'"></app-collaps-li>
-                    <app-collaps-li [heading]="'2. It’s All About You'"> </app-collaps-li>
-                    <app-collaps-li [heading]="'3. Goals And Growth'"> </app-collaps-li>
-                    <app-collaps-li [heading]="'4. Communication Is Key'"></app-collaps-li>
-                    <app-collaps-li [heading]="'5. No Task Is Too Big Or Too Small'"></app-collaps-li>
-                    <app-collaps-li [heading]="'6. Eyes Always Open'"> </app-collaps-li>
-                    <app-collaps-li [heading]="'7. Forward Thinking'"> </app-collaps-li>
-                    <app-collaps-li [heading]="' 8. Here to Build'"></app-collaps-li>
-                    <app-collaps-li [heading]="'9. Always the helping hand'"></app-collaps-li>
-                    <app-collaps-li [heading]="'10. No place like home'"></app-collaps-li>
+                    <app-collaps-li [heading]="'1. We Connect The Dots'"
+                        [description]="'We listen to what your needs are and connect you with the right resources to help you achieve your goals.'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="'2. It’s All About You'"
+                        [description]="'When you sign your contract you can rest assured of its bespoke. Not all of our services may apply. Our meetings are to ensure we guide you and see what your business needs.'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="'3. Goals And Growth'"
+                        [description]="'Most of our clients have been with us for years. We`ve seen our clients grow and have been there every step of the way. We pride ourselves in building a strong bond.'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="'4. Communication Is Key'"
+                        [description]="'You have a lot of merchandise coming our way and may have questions on every order. We`re always looking forward to your call and helping you in whatever you need.'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="'5. No Task Is Too Big Or Too Small'"
+                        [description]="'Experimenting and trying new things is something we strongly encourage. If you have a small run of a new style or a whole container, we look forward to helping you.'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="'6. Eyes Always Open'"
+                        [description]="'The fashion industry is constantly evolving so we constantly keep an eye open for new trends that may appear.'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="'7. Forward Thinking'"
+                        [description]="'Our team is devoted to creating new services. We never stay put, we work on recreating the wheel in order to give you something new.'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="' 8. Here to Build'"
+                        [description]="'We`re more concerned with making sure we establish<br>a strong relationship. We do this in order to build a relationship and opportunities in which you benefit from.'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="'9. Always the helping hand'"
+                        [description]="'You can come to us with anything you may need.<br>Do you want to know where the best places to shop are? Let us know. Want to know where to grab a bite in the fashion district? Let us know!'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="'10. No place like home'"
+                        [description]="'Doesn`t matter how far or how long you go you can always count on us to receive with a bright smile and a plan to get you on track to success.'">
+                    </app-collaps-li>
                 </ul>
             </div>
         </div>
     </div>
 </div>
 
-<div class="container team">
+<!-- <div class="container team">
     <div class="row larger-header">
         <div class="col-md-12">
             <span>Meet The Team</span>
         </div>
     </div>
-    <div class="row founder">
+    <div class="row founder align-items-center">
         <div class="col-md-6">
             <div class="welcome-box">
                 <span class="welcome-header">Ezequiel Sierra</span>
@@ -132,10 +153,10 @@
                 <span class="welcome-header">Erick Sierra</span>
                 <p class="job">New Business Manger</p>
                 <p class="welcome-message">
-                    Paraiso Packing started off as a vision. A way to help clients brand themselves in a competitive
-                    market. This Idea came to Ezequiel over ten years ago. Prior to starting Paraiso Packing he was a
-                    sells representative for some of the most popular vendors in the fashion district. He uses his
-                    experience of over 10 years to best guide our clients.
+                    If you ever want to sit down with one of our team members and discuss how Paraiso Packing is a right
+                    fit for you. You’ll most likely speak with Erick. He’s been with us since the beginning and knows
+                    the ins and outs of our business. He also has a keen eye for fashion and stays on top of the latest
+                    trends.
 
                 </p>
             </div>
@@ -148,11 +169,9 @@
                 <span class="welcome-header">Grecia Alarcon</span>
                 <p class="job">Communications Manager</p>
                 <p class="welcome-message">
-                    Paraiso Packing started off as a vision. A way to help clients brand themselves in a competitive
-                    market. This Idea came to Ezequiel over ten years ago. Prior to starting Paraiso Packing he was a
-                    sells representative for some of the most popular vendors in the fashion district. He uses his
-                    experience of over 10 years to best guide our clients.
-
+                    Once you’re a part of the team Grecia is your go to person for any of your needs. She makes sure
+                    everything is lined up and ready for production. Super optimistic and determined. Making sure all
+                    your expectation are met.
                 </p>
             </div>
         </div>
@@ -180,38 +199,38 @@
                 <span class="welcome-header">Andy Hernandez</span>
                 <p class="job">Operations Manager</p>
                 <p class="welcome-message">
-                    Once you come into the doors of Paraiso Packing you’ll be greeted by a big smile. Andy makes sure
-                    all of your orders get to us safe and complete. All the information that’s need to ensure that
-                    there are no issues go through Andys eyes. He’s the gatekeeper of Paraiso Packing
+                    Once you come into the doors of Paraiso Packing you’ll be greeted by a big smile. Andy makes sure
+                    all of your orders get to us safe and complete. All the information that’s need to ensure that there
+                    are no issues go through Andys eyes. He’s the gatekeeper of Paraiso Packing.
                 </p>
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <div class="container connect">
     <div class="row">
+        <a routerLink="/home" class="left-link">Home</a>
         <div class="col-md-6">
-            <div class="welcome-box">
+            <div class="welcome-box text-right">
                 <span class="welcome-header">Connect With Us</span>
-                <p class="welcome-message">
-                </p>
             </div>
         </div>
         <div class="col-md-6">
-            <div class="welcome-box">
+            <div class="welcome-box mg-l-0">
                 <p class="connect-messgae">
                     Our team is always looking forward to chatting with you. Don’t hesitate to contact us. Come to us
                     with any questions and were more than happy to answer them!
                 </p>
                 <div class="mail">
-                    <div class="col-md-12">
-                        <div class="inner-addon right-addon">
-                            <button class="btn"><i class="fa fa-play"></i></button>
-                            <input type="text" class="form-control" placeholder="Email" />
-                        </div>
+
+                    <div class="inner-addon right-addon">
+                        <button class="btn"><i class="fa fa-play"></i></button>
+                        <input type="text" class="form-control" placeholder="Email" />
                     </div>
+
                 </div>
             </div>
         </div>
+        <a routerLink="/services" class="right-link">Services</a>
     </div>
 </div>

@@ -1,11 +1,24 @@
+
 .navbar {
     background: #f9f7f1;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    .navbar-toggler {
+        position: absolute;
+        left: 10px;
+        top: 15px;
+        outline: none;
+        color: #382f1b;
+        z-index: 1;
+    }
 }
 .navbar-brand {    
-    width: 60%;
+    
     margin: auto;
     img {
-        width: 75%;
+        width: 200px;
     }
 }
 .nav-link {
@@ -13,4 +26,67 @@
 }
 .navbar-collapse {
     margin-top: 5vh;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  color: #382f1b;
+  top: 0;
+  left: 0;
+  background-color: #cc8b4f;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  padding-bottom: 400px;
+    a {
+  padding: 8px 8px 8px 15px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #382f1b;
+  display: block;
+  transition: 0.3s;
+        &:hover{
+  color: #fff;
+        }
+}
+    .closebtn {
+     float: right;
+        margin-top: -10px;
+        margin-right: 10px;
+        font-size: 48px;
+}
+    .head-close {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        padding-left: 15px;
+        span{
+          font-size: 30px;
+            margin-top: 15px;
+            display: inline-block;
+        }
+    }
+    .main_nav {
+        margin-top: 20px;
+        a {
+            font-size: 18px;
+        }
+    }
+    .bottom-nav{
+        position: absolute;
+        bottom: 20px;
+        padding-left: 15px;
+        font-size: 14px;
+        a{
+            margin: 0;
+            margin-right: 20px;
+            font-size: 20px;
+            display: inline-block;
+            padding: 0;
+        }
+    }
 }

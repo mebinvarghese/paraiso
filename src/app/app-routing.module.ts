@@ -23,13 +23,12 @@ const mobile_routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(desktop_routes, { preloadingStrategy: PreloadAllModules })],
+  imports: [RouterModule.forRoot(desktop_routes, { preloadingStrategy: PreloadAllModules, onSameUrlNavigation: 'reload' })],
   exports: [RouterModule]
 })
 export class AppRoutingModule {
   public constructor(private router: Router,
     private applicationStateService: ApplicationStateService) {
-
     if (this.applicationStateService.getIsMobileResolution()) {
       this.router.resetConfig(mobile_routes);
     }

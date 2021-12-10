@@ -14,6 +14,7 @@ export class HeaderComponent implements OnInit {
     this.router.events.subscribe(eve => {
       if (eve instanceof NavigationEnd) {
         console.log(eve);
+        window.scrollTo(0, 0);
         this.checkPageName();
       }
     });

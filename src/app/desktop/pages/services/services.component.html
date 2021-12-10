@@ -1,5 +1,6 @@
 <div class="container about-us">
-    <div class="row">
+    <div class="row align-items-end">
+        <h2 class="serv_head">Services</h2>
         <div class="col-md-4">
             <div class="key-point">
                 <span>Key Points</span>
@@ -25,10 +26,12 @@
             <div class="welcome-box">
                 <span class="welcome-header">The Power Of Branding</span>
                 <p class="welcome-message">
-                    When Paraiso Packing started not only did we want to help the new business owner, we wanted them
-                    to create a brand. We realized that a lot of boutiques and stores were having a hard time
-                    establishing themselves. All of our services are made to help you brand your company. When your
-                    clothes hit the racks they’ll instantly know it’s you.
+                    When Paraiso Packing started not only did we want to help <br>
+                    the new business owner, we wanted them to
+                    create a brand.<br> We realized that a lot of boutiques and stores were having a hard time
+                    establishing
+                    themselves. All of our services are made to help you brand your company. When your clothes hit the
+                    racks they’ll instantly know it’s you.
                 </p>
             </div>
         </div>
@@ -38,21 +41,34 @@
 <div class="container bridging">
     <div class="row larger-header">
         <div class="col-md-12">
-            <span>Bridging The Gap</span>
+            <span>How We Help</span>
         </div>
     </div>
     <div class="row believe">
         <div class="col-md-6 first">
             <div class="content">
                 <ul>
-                    <app-collaps-li [heading]="'Private Labeling'"></app-collaps-li>
-                    <app-collaps-li [heading]="'Rush Label'"> </app-collaps-li>
-                    <app-collaps-li [heading]="'Sample Picking'"> </app-collaps-li>
-                    <app-collaps-li [heading]="'Hem Tag'"></app-collaps-li>
-                    <app-collaps-li [heading]="'Polly Bag'"></app-collaps-li>
-                    <app-collaps-li [heading]="'Hanger Strap removal'"> </app-collaps-li>
-                    <app-collaps-li [heading]="'Size Ticket'"> </app-collaps-li>
-                    <app-collaps-li [heading]="'Care Lbael'"></app-collaps-li>
+                    <app-collaps-li [heading]="'Private Labeling'"
+                        [description]="'Removal of original vendor label and replacing it with your provided private label, exclusion of this service is available upon customers request.'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="'Rush Label'" [description]="'Only in warehouse merchandise.'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="'Sample Picking'"
+                        [description]="'Sample Picking only for in warehouse merchandise.'"></app-collaps-li>
+                    <app-collaps-li [heading]="'Hem Tag'"
+                        [description]="'Sewing your custom label onto the hem of your garment and trimming of excess thread to provide a look of utmost quality to your brand. The process is done by our sewing operators with five plus years experience.'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="'Polly Bag'"
+                        [description]="'Bagging per garment (Poly bag not included)'"></app-collaps-li>
+                    <app-collaps-li [heading]="'Hanger Strap removal'"
+                        [description]="'Removal of hanger strap with vendor logo. (Clear straps removed upon request)'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="'Size Ticket'"
+                        [description]="'Size ticket sewed on garment only for merchandise excluding size on care label from Vendor.'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="'Care Label'"
+                        [description]="'Only when the care label needs to be removed and sewn on the garment, with new label'">
+                    </app-collaps-li>
                 </ul>
             </div>
         </div>
@@ -60,14 +76,27 @@
             <div class="content">
                 <ul>
 
-                    <app-collaps-li [heading]="'Removal of Pins'"></app-collaps-li>
-                    <app-collaps-li [heading]="'Consumer Benefits'"> </app-collaps-li>
-                    <app-collaps-li [heading]="'Tagging'"> </app-collaps-li>
-                    <app-collaps-li [heading]="'Hangers'"></app-collaps-li>
-                    <app-collaps-li [heading]="'Damadge Check'"></app-collaps-li>
-                    <app-collaps-li [heading]="'Bar Code Sticker'"> </app-collaps-li>
-                    <app-collaps-li [heading]="'Pallet'"> </app-collaps-li>
-                    <app-collaps-li [heading]="' Merchandise Clean up'"></app-collaps-li>
+                    <app-collaps-li [heading]="'Removal of Pins'"
+                        [description]="'Some garments may come with Pins that have to be carefully removed by hand'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="'Consumer Benefits'"
+                        [description]="'Access to our online management services.'"></app-collaps-li>
+                    <app-collaps-li [heading]="'Tagging'" [description]="'Tagging each garment/unit. (Clear Barbs)'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="'Hangers'"
+                        [description]="'Putting hangers on all merchandise individually.'"></app-collaps-li>
+                    <app-collaps-li [heading]="'Damage Check'"
+                        [description]="'Checking garments for damages, if need be we will obtain a store credit, refund, or an undamaged piece. No hassle, no headaches for you.'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="'Bar Code Sticker'"
+                        [description]="'If your store manages bar codes, we place those on the garments for you.'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="'Pallet'"
+                        [description]="'Build and label Pallets for Freight Shipments. This charge includes a detailed list of boxes included in your pallet. (You must provide information of preferred freight company)'">
+                    </app-collaps-li>
+                    <app-collaps-li [heading]="' Merchandise Clean up'"
+                        [description]="'Cleaning all of the merchandise and getting rid of all the hassle for you.'">
+                    </app-collaps-li>
                 </ul>
             </div>
         </div>
@@ -84,8 +113,8 @@
             <img src="./assets/images/icon-images/vector-smart-object.png" alt="">
             <h5>Order Your Merchandise</h5>
             <p class="welcome-message">
-                Wether you’re a designer yourself and have a collection of clothes or want to shop from the fashion
-                district we accept a wide range of garments. From denim to handbags and even shoes.
+                Wether you’re a designer yourself and have<br> a collection of clothes or want to shop from the fashion
+                district we accept a wide range of garments. From denim to handbags and<br> even shoes.
 
             </p>
         </div>
@@ -94,24 +123,25 @@
             <h5>Send It To Us</h5>
             <p class="welcome-message">
                 Space is not an issue. With over 15,000 square feet we can accommodate to any volume of merchandise.
-                Wether its being sent in boxes or palettes we are not limited.
+                Wether its being sent in boxes or palettes we are not limited.
 
             </p>
 
         </div>
         <div class="col-md-3">
             <img src="./assets/images/icon-images/working.png" alt="">
-            <h5>Send It To Us</h5>
+            <h5>We Get To Work</h5>
             <p class="welcome-message">
-                After we check your merchandise and make sure there are no damages from the vendor or missing pieces we
+                After we check your merchandise and make sure there are no damages from the vendor<br> or missing pieces
+                we
                 get to work! On average it takes our team 3 to 5 days to finish servicing your garments. We ship them
-                upon the day of completion.
+                upon the day<br> of completion.
             </p>
 
         </div>
         <div class="col-md-3">
             <img src="./assets/images/icon-images/truck.png" alt="">
-            <h5>Send It To Us</h5>
+            <h5>It’s On Its Way</h5>
             <p class="welcome-message">
                 Once your merchandise has been shipped we will send you a tracking number so you know when to expect
                 your merchandise.
@@ -121,18 +151,17 @@
 </div>
 <div class="container quote">
     <div class="row">
+        <a routerLink="/about-us" class="left-link">About Us</a>
         <div class="col-md-6">
             <div class="welcome-box">
                 <span class="welcome-header">Request a Quote</span>
-                <p class="mail">
-                </p>
             </div>
         </div>
         <div class="col-md-6">
             <div class="welcome-box">
                 <p class="team-desc">
-                    Come and chat with one of our representatives and see how we can help your business grow. We accept
-                    clients of all sizes. Wether you just took the first step into starting your business or have years
+                    Come and chat with one of our representatives and see how we can help your business grow. We accept
+                    clients of all sizes. Wether you just took the first step into starting your business or have years
                     in the industry we’re here to help.
                 </p>
             </div>
@@ -142,5 +171,6 @@
                 <input type="text" class="form-control" placeholder="Email" />
             </div>
         </div>
+        <a routerLink="/contact" class="right-link">Contact</a>
     </div>
 </div>

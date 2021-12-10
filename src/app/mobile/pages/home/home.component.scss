@@ -1,19 +1,22 @@
 .home {
-    margin-top: 2rem;
+    
     .banner-image {
         width: 100%;
-        img {   
-            width: inherit;
-            object-fit: contain;
-        }
+        height: 400px;
+        background: #333;
+        background-size:cover;
+        background-position: right;
+        background-repeat: no-repeat;
     }
     .welcome {
         .col-md-6 {
             width: 50%;
         }
         .welcome-header {
-            font-weight: 100;
+            font-weight: 600;
             margin-bottom: 2rem;
+            color: #382f1b;
+            position: relative;
         }
     
         .welcome-header::after {
@@ -22,9 +25,10 @@
             position: absolute;
             height: 1px;
             background: black;
-            width: 80%;
-            left: 110%;
-            top: calc(50% - 12px);
+            width: calc(100% - 60%);
+            right: 0;
+            top: 28px;
+            color: #382f1b;
         }
     }
     .welcome-box {
@@ -32,17 +36,17 @@
             margin-top: 50px;
             border-top: 1px solid black;
             padding-top: 10px;
-            letter-spacing: 1.2px;
+            
             font-size: 12px;
         }
     }
     .welcome-btn {
         text-align: center;
         display: block;
-        margin-top: 2rem;
+        margin-top: 1rem;
         .btn {    
             padding: 5px;
-            font-size: 10px;
+            font-size: 14px;
             width: 40%;
             border-radius: 8px;
         
@@ -63,7 +67,7 @@
             width: 50%;
         }
         .welcome-header {
-            font-weight: 100;
+            font-weight: 600;
             margin-bottom: 2rem;
         }
     
@@ -73,16 +77,16 @@
             position: absolute;
             height: 1px;
             background: black;
-            width: 80%;
-            left: 50%;
-            top: calc(50% - 12px);
+            width: 80px;
+            left: 80px;
+            top: 14px;
         }
     }
     .t-word {
         margin-bottom: 2rem;
         .col-md-12 {    
             border-bottom: 1px solid black;
-            margin: 0px 15px 0 20px;
+            margin: 0px 15px 0 15px;
             padding: 0;
             padding-bottom: 10px;
             span {
@@ -95,7 +99,7 @@
             margin-top: 50px;
             border-top: 1px solid black;
             padding-top: 10px;
-            letter-spacing: 1.2px;
+            
             font-size: 12px;
         }
     }
@@ -105,7 +109,7 @@
         margin-top: 2rem;
         .btn {    
             padding: 5px;
-            font-size: 10px;
+            font-size: 14px;
             width: 40%;
             border-radius: 8px;
         
@@ -131,7 +135,7 @@
             width: 50%;
         }
         .welcome-header {
-            font-weight: 100;
+            font-weight: 600;
             margin-bottom: 2rem;
         }
     
@@ -141,16 +145,16 @@
             position: absolute;
             height: 1px;
             background: black;
-            width: 80%;
-            left: 50%;
-            top: calc(50% - 12px);
+            width: 80px;
+            left: 90px;
+            top: 14px;
         }
     }
     .t-word {
         margin-bottom: 2rem;
         .col-md-12 {    
             border-bottom: 1px solid black;
-            margin: 0px 15px 0 20px;
+            margin: 0px 15px 0 15px;
             padding: 0;
             padding-bottom: 10px;
             span {
@@ -163,7 +167,7 @@
             margin-top: 50px;
             border-top: 1px solid black;
             padding-top: 10px;
-            letter-spacing: 1.2px;
+            
             font-size: 12px;
         }
     }
@@ -173,7 +177,7 @@
         margin-top: 2rem;
         .btn {    
             padding: 5px;
-            font-size: 10px;
+            font-size: 14px;
             width: 40%;
             border-radius: 8px;
         
@@ -201,7 +205,7 @@
             width: 50%;
         }
         .welcome-header {
-            font-weight: 100;
+            font-weight: 600;
             margin-bottom: 2rem;
         }
     
@@ -211,16 +215,16 @@
             position: absolute;
             height: 1px;
             background: black;
-            width: 80%;
-            left: 50%;
-            top: calc(50% - 12px);
+            width: 80px;
+            left: 95px;
+            top: 14px;
         }
     }
     .t-word {
         margin-bottom: 2rem;
         .col-md-12 {    
             border-bottom: 1px solid black;
-            margin: 0px 15px 0 20px;
+            margin: 0px 15px 0 15px;
             padding: 0;
             padding-bottom: 10px;
             span {
@@ -233,7 +237,7 @@
             margin-top: 50px;
             border-top: 1px solid black;
             padding-top: 10px;
-            letter-spacing: 1.2px;
+            
             font-size: 12px;
         }
     }
@@ -243,7 +247,7 @@
         margin-top: 2rem;
         .btn {    
             padding: 5px;
-            font-size: 10px;
+            font-size: 14px;
             width: 40%;
             border-radius: 8px;
         
@@ -273,7 +277,7 @@
             width: 50%;
         }
         .welcome-header {
-            font-weight: 100;
+            font-weight: 600;
             margin-bottom: 2rem;
         }
     
@@ -283,16 +287,16 @@
             position: absolute;
             height: 1px;
             background: black;
-            width: 80%;
-            left: 50%;
-            top: calc(50% - 12px);
+            width: 80px;
+            left: 75px;
+            top: 14px;
         }
     }
     .t-word {
         margin-bottom: 2rem;
         .col-md-12 {    
             border-bottom: 1px solid black;
-            margin: 0px 15px 0 20px;
+            margin: 0px 15px 0 15px;
             padding: 0;
             padding-bottom: 10px;
             span {
@@ -305,7 +309,7 @@
             margin-top: 50px;
             border-top: 1px solid black;
             padding-top: 10px;
-            letter-spacing: 1.2px;
+            
             font-size: 12px;
         }
     }
@@ -315,7 +319,7 @@
         margin-top: 2rem;
         .btn {    
             padding: 5px;
-            font-size: 10px;
+            font-size: 14px;
             width: 40%;
             border-radius: 8px;
         

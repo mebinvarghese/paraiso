@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { AboutUsPageRoutingModule } from './about-us-routing.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AboutUsComponent } from './about-us.component';
+import { ComponentModule } from '../../components/components.module';
 
 
 
@@ -12,6 +13,7 @@ import { AboutUsComponent } from './about-us.component';
   imports: [
     CommonModule,
     NgbModule,
+    ComponentModule,
     AboutUsPageRoutingModule
   ]
 })
